@@ -269,4 +269,6 @@ whether to call indent-according-to-mode."
     (evil-define-key 'motion python-mode-map "]}" 'evil-next-close-brace)
     ))
 
+;; enable evil-commentary permanetly
+(evil-commentary-mode)
 (provide 'init-evil)
