@@ -14,5 +14,6 @@
       (add-hook 'python-mode-hook
                 (lambda () (sanityinc/local-push-company-backend 'company-anaconda))))))
 
+(global-set-key (kbd "C-c M-.") 'anaconda-mode-find-definitions)
 
 (provide 'init-python-mode)

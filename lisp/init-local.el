@@ -1,9 +1,9 @@
 (require 'package)
 (push '("marmalade" . "http://marmalade-repo.org/packages/")
       package-archives )
-(push '("melpa" . "http://melpa.org/packages")
+(push '("melpa" . "http://melpa.org/packages/")
       package-archives)
-(push '("melpa-stable" . "https://stable.melpa.org/packages/")
+(push '("melpa-stable" . "http://stable.melpa.org/packages/")
       package-archives)
 (push '("org" . "http://orgmode.org/elpa/")
       package-archives)
@@ -24,4 +24,5 @@
 (require 'helm-config)
 (require 'init-evil)
 (require 'init-auctex)
+
 (provide 'init-local)

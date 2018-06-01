@@ -163,6 +163,7 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+(setq projectile-indexing-method 'native)
 
 (provide 'init)
 
