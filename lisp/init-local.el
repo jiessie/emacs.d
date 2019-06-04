@@ -25,4 +25,6 @@
 (require 'init-evil)
 (require 'init-auctex)
 
+(add-hook 'python-mode-hook #'flycheck-virtualenv-setup)
+
 (provide 'init-local)
