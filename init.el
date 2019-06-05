@@ -60,6 +60,8 @@
 (require 'init-uniquify)
 (require 'init-ibuffer)
 (require 'init-flycheck)
+(require 'flycheck-virtualenv)
+(require 'init-header2)
 
 (require 'init-recentf)
 (require 'init-smex)
@@ -165,9 +167,17 @@
 
 (setq projectile-indexing-method 'native)
 
+;; minor mode for highline current line
+(global-hl-line-mode +1)
+
+;; disable menu bar
+(menu-bar-mode -1)
+
 (provide 'init)
 
 ;; Local Variables:
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'scroll-left 'disabled nil)
+(put 'erase-buffer 'disabled nil)
