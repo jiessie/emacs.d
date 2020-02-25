@@ -66,7 +66,7 @@
 (require 'init-ibuffer)
 (require 'init-flycheck)
 (require 'flycheck-virtualenv)
-(require 'init-header2)
+;; (require 'init-header2)
 
 (require 'init-recentf)
 (require 'init-smex)
