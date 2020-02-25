@@ -60,6 +60,7 @@
 (require 'init-uniquify)
 (require 'init-ibuffer)
 (require 'init-flycheck)
+(require 'flycheck-virtualenv)
 
 (require 'init-recentf)
 (require 'init-smex)
@@ -171,3 +172,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'scroll-left 'disabled nil)
