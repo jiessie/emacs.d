@@ -24,5 +24,9 @@
 (require 'helm-config)
 (require 'init-evil)
 (require 'init-auctex)
+(require 'init-grammarly)
+(require 'init-langtool)
+(require 'init-flyspell)
+(require 'init-keyfreq)
 
 (provide 'init-local)

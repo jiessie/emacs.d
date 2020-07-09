@@ -53,6 +53,7 @@
 (require 'init-xterm)
 (require 'init-themes)
 (require 'init-osx-keys)
+(require 'init-keyfreq)
 (require 'init-gui-frames)
 (require 'init-dired)
 (require 'init-isearch)
@@ -60,6 +61,7 @@
 (require 'init-uniquify)
 (require 'init-ibuffer)
 (require 'init-flycheck)
+(require 'init-flyspell)
 
 (require 'init-recentf)
 (require 'init-smex)
@@ -171,3 +173,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'set-goal-column 'disabled nil)
